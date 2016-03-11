@@ -5,16 +5,19 @@
  */
 package gui;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author David
  */
 public class MainGUI extends javax.swing.JFrame {
-
+    private ArrayList<String> textLines;
     /**
      * Creates new form MainGUI
      */
     public MainGUI() {
+        textLines = new ArrayList<>();
         initComponents();
     }
 
