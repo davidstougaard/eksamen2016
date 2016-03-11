@@ -10,12 +10,13 @@ package gui;
  * @author David
  */
 public class MainGUI extends javax.swing.JFrame {
-
+    private String text;
     /**
      * Creates new form MainGUI
      */
     public MainGUI() {
         initComponents();
+        text = "Welcome!";
     }
 
     /**
