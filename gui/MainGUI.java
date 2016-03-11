@@ -13,12 +13,14 @@ import java.util.ArrayList;
  */
 public class MainGUI extends javax.swing.JFrame {
     private ArrayList<String> textLines;
+    private String text;
     /**
      * Creates new form MainGUI
      */
     public MainGUI() {
         textLines = new ArrayList<>();
         initComponents();
+        text = "Welcome!";
     }
 
     /**
